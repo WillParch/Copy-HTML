@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--  test  -->
+	<!-- Established title   -->
 <title>My Biography</title>
 </head>
-<!-- style="font-size:40px;font-family:courier" align="center"     -->
+	<!-- Established heading   -->
 <h1 >My Biography Website</h1>
 <br>
-<body>
-	<div class="navbar"> <!-- Division for inspiration 3 -->
+<!-- Set class for body   -->
+<body class="body">
+	<div class="navbar"> <!-- Division for navigation bar -->
 		<h3 class="navtitle-text"> Navigator</h3>
-		<li><a href="Bio.html">Home</a>  </li>
-		<li><a href="h2.html">other link</a> </li>
-		<li>slug text</li>
+		<li class="link-text"><a href="Bio.html">Home</a>  </li>
+		<li class="link-text"><a href="h2.html">Digital Projects</a> </li>
+		<li class="link-text"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Rick Roll</a></li>
 		</div>
 
 		<br>
 		<br>
 		<br>
-	<!--style="position:relative; left:375px"    -->
-	<div class="biographydiv" > <!-- Division for your bio -->
+
+	<div class="biographydiv" > <!-- Division for bio -->
 		<h3 >Personal Biography</h3>
     	<img class="frame"  src="https://live.staticflickr.com/65535/51597860214_e027cbab02_c.jpg" alt="My Biography" >
 			<p class="biography-text">My name is Shawn Lopez II, a bit of my skills includes creative writing, event planning, and brainstorming ideas. One career I’m interested in pursuing
@@ -28,14 +29,15 @@
 				series I’ve been working on and hopefully later on an animated tv show, but I know those will take time and I’d settle for no less than a position in a company making games
 				in the short term. However in the future, I’d like to create my own company and contribute my own ideas to the gaming industry.
 			</p>
-		</div> <!-- End of Division for your bio -->
+		</div> <!-- End of Division for bio -->
 
 		<br>
 
 		<div class="biographyion" > <!-- Division for inspiration 1 -->
 			<h3 >Inspiration 1</h3>
 	    	<img src="https://live.staticflickr.com/65535/51597947783_84acec96fe_s.jpg" alt="My Biography" >
-				<p class="biography-text"> Ion Hazzikostas- While the state of the game World of Warcraft isn’t in its best state in current events,
+				<p class="biography-text"> <a href="https://wowpedia.fandom.com/wiki/Ion_Hazzikostas">https://wowpedia.fandom.com/wiki/Ion_Hazzikostas</a>
+					Ion Hazzikostas- While the state of the game World of Warcraft isn’t in its best state in current events,
 					Ion Hazzikostas is a great Game Director both in the way he communicates content in the game and his skill in making raid encounters as
 					well as various other pieces of content. He demonstrates a high aptitude in game development and that’s something I’d like to hope to
 					match someday.
@@ -47,7 +49,8 @@
 			<div class="biographyhow"> <!-- Division for inspiration 2 -->
 				<h3 >Inspiration 2</h3>
 		    	<img src="https://live.staticflickr.com/65535/51600533799_5c83543ab5_n.jpg" alt="My Biography" >
-					<p class="biography-text"> Todd Howard- Todd Howard is responsible for creating many great games such as The Elder Scrolls series and
+					<p class="biography-text"> <a href="https://theofficialbethesdasoftworks.fandom.com/wiki/Todd_Howard">https://theofficialbethesdasoftworks.fandom.com/wiki/Todd_Howard</a>
+						Todd Howard- Todd Howard is responsible for creating many great games such as The Elder Scrolls series and
 						Fallout 3 and 4. Much like how there are steps in designing a system, Howard also follows three steps in designing a game: great games
 						are played not made, keep it simple, and define the experience. He’s a genius when it comes to the creation of games and I hope to be
 						able to approach the level of skill he contributes to the gaming industry someday.
@@ -59,33 +62,27 @@
 				<div class="biographyjam"> <!-- Division for inspiration 3 -->
 					<h3 >Inspiration 3</h3>
 			    	<img src="https://live.staticflickr.com/65535/51600786835_4d377d2fab_m.jpg" alt="My Biography" >
-						<p class="biography-text"> James Dashner is an author who made the amazing Maze Runner novel series that has recently translated
+						<p class="biography-text"> <a href="https://mazerunner.fandom.com/wiki/James_Dashner">https://mazerunner.fandom.com/wiki/James_Dashner</a>
+							James Dashner- James Dashner is an author who made the amazing Maze Runner novel series that has recently translated
 							into movies that have become a great success. He creates works for young adults, usually in a fantasy genre. His books are incredible
 							and have a great field of characters both relatable, in-depth, and creates interesting world-building. I hope to aspire to be as great
 							as an author someday.
 						</p>
-					</div> <!-- End of Division for inspiration  -->
+					</div> <!-- End of Division for inspiration 3 -->
 
 					<br>
 					<br>
 
 
-<!--
 
-	    <img src="https://live.staticflickr.com/65535/51597947783_84acec96fe_s.jpg" alt="My Biography" >
-
-
-	    <p class="biography-text">Some weird text here </p>
+  </body>
 
 
--->
-
-
-  </body>   <!-- No HTML Elelements past here ..... -->
-
-
-<!-- Put your style classes below here ... -->
+<!-- Style classes -->
 <style>
+.body{
+background-color: #7070db;
+}
 .frame {
 				width: 250px;
         height: 250px;
@@ -142,5 +139,11 @@
 				font-family: "sans-serif";
 				text-align: center;
 			}
-      </style> <!-- Put your style classes above here ^ -->
+
+				.link-text{
+					font-weight: 800;
+					font-family: "sans-serif";
+	        font-color: #99e699;
+				}
+      </style>
 </html>
