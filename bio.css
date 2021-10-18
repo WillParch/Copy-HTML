@@ -1,0 +1,68 @@
+
+
+.body{
+background-color: #7070db;
+}
+.frame {
+				width: 250px;
+        height: 250px;
+        border: 2px solid #0000ff;
+        background:#e6e6ff;
+				padding: 20px 10px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+			.biographyparagraph{
+			background-color:#e6e6ff;
+			}
+
+			.biographydiv{
+
+				width: 30%;
+				padding: 30px 30px;
+				background-color: #e6e6ff;
+			}
+
+			.biographyion{
+				width: 30%;
+				padding: 30px 30px;
+				background-color: #ffebe6;
+			}
+
+			.biographyhow{
+				width: 30%;
+				padding: 30px 30px;
+				background-color: #ffebe6;
+			}
+
+			.biographyjam{
+				width: 30%;
+				padding: 30px 30px;
+				background-color: #ffebe6;
+			}
+
+			.biography-text{
+				font-weight: 400;
+				font-family: "sans-serif";
+			}
+
+			.navbar{
+				width: 50%;
+				padding: 30px 30px;
+				background-color: #e6b3ff;
+			}
+
+			.navtitle-text{
+				font-weight: 400;
+				font-family: "sans-serif";
+				text-align: center;
+			}
+
+				.link-text{
+					font-weight: 800;
+					font-family: "sans-serif";
+	        font-color: #99e699;
+				}
+      
